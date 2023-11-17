@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+{
+    box-sizing: border-box;
+}
+/* Set additional styling options for the columns*/
+.column {
+float: left;
+width: 50%;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+.form-group label {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 120%;
+    color: black;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-control {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 110%;
+    width: 150%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 0.5px solid crimson;
+}
+
+.btn {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 130%;
+    background-color: #F6D2FC;
+    border: 0.5px solid crimson;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.form-text {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 90%;
+    color: grey;
+}
+
+
+.home {
+    background-image: url('disneybg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+nav {
+    width: 100%;
+    background-color: #FFACED;
+    position: absolute; /* Fixed position */
+    top: 0; /* Stay at the top */
+    left: 0;
+}
+
+.nav-content {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 175%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.button-container {
+    display: inline-block;
+
+
+}  .button {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 180%;
+    display: inline-block;
+    margin: 20px 60px;
+    background-color: #F6D2FC;
+    border: .5px solid crimson;
+    border-radius: 0px;
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+
+  h1 {
+    font-family: 'Didact Gothic', sans-serif;
+    color: white;
+    font-size: 600%;
+    font-weight: 900;
+    text-align: center;
+    background-color: black;
+  }
+  h2 {
+    font-family: 'Didact Gothic', sans-serif;
+    color: black;
+    font-size: 400%;
+    font-weight: 900;
+    text-align: center;
+  }
+  h3 {
+    font-family: 'Didact Gothic', sans-serif;
+    color: black;
+    font-size: 300%;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+  }
+  h4 {
+    font-family: 'Didact Gothic', sans-serif;
+    color: black;
+    font-size: 200%;
+    font-weight: 900;
+    text-align: center;
+    font-style: italic;
+  }
+
+  p {
+    font-family: 'Didact Gothic', sans-serif;
+    color: red;
+    text-align: center;
+  }
+
